@@ -1,7 +1,4 @@
-/********** Scroll Reveal ***********/
-<script src="https://unpkg.com/scrollreveal"></script>
-const ScrollReveal = require('scrollreveal')
-import ScrollReveal from 'scrollreveal'
+
 
 
 /********** Sticky Navbar ***********/
