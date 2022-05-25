@@ -9,8 +9,7 @@ a {
   text-decoration: none;
 }
 .reveal {
-  background-color: 
-  hsla(200, 100%, 25%, 0.5);
+  background-color: hsla(200, 100%, 25%, 0.5);
   color: #eee;
 }
 
@@ -31,12 +30,22 @@ a {
   font-size: 2rem;
   margin: 0;
   letter-spacing: 1rem;
+  background-color: hsla(200, 100%, 25%, 0.5);
+  color: #eee;
+
 }
+.et-hero-tabs h2,
+.et-slide h2 {
+background-color: hsla(200, 100%, 25%, 0.5);
+color: #eee;
+}
+
 .et-hero-tabs h3,
 .et-slide h3 {
   font-size: 1rem;
   letter-spacing: 0.3rem;
   opacity: 0.6;
+ 
 }
 
 .et-hero-tabs-container {
@@ -60,10 +69,11 @@ a {
   justify-content: center;
   align-items: center;
   flex: 1;
-  color: #000;
+  color: hsla(200, 100%, 25%, 0.5);
   letter-spacing: 0.1rem;
   transition: all 0.5s ease;
   font-size: 0.8rem;
+ 
 }
 .et-hero-tab:hover {
   color: white;
