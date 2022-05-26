@@ -111,6 +111,17 @@ color: #eee;
   }
 }
 
+/******** Drop Down *********/
+
+.drop-down {
+  padding: 10px;
+  cursor: pointer;
+}
+.hidden {
+  margin-top: 15px;
+  display: none;
+}
+
 
 /*** Typing Animation ***/
 
@@ -175,6 +186,7 @@ color: #eee;
   }
 }
 
+/* ABOUT SECTION */
 
 .container {
   justify-content: left;
@@ -254,8 +266,11 @@ ul.social-icons {
 .fa-github:hover {
  /* color: #5a32a3; */
  color: #FFF;
-  background-color:  hsla(200, 100%, 25%, 0.5);;
+  background-color:  hsla(200, 100%, 25%, 0.5);
 
 }
+
+
+
 
 

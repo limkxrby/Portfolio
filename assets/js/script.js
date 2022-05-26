@@ -88,3 +88,14 @@ $(document).ready(() => {
 	  setTimeout(() => typingElement.addClass('animate'), 1);
 	})
   });
+
+
+/************ DROP DOWN ************/
+
+$(document).ready(function(){
+  
+  $('.drop-down').on('click', function(e){
+    $(this).find('.hidden').slideToggle();
+    $('.drop-down').not(this).find('.hidden').slideUp();
+  });
+});
