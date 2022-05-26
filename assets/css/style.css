@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Muli);
 
 body {
   font-family: "Century Gothic", "Lato", sans-serif;
@@ -25,6 +27,20 @@ a {
   text-align: center;
   padding: 0 2em;
 }
+
+.et-slide-projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+ 
+  position: relative;
+  background: #eee;
+  text-align: center;
+  padding: 0 2em;
+}
+
+.et-slide-projects h1,
 .et-hero-tabs h1,
 .et-slide h1 {
   font-size: 2rem;
@@ -34,12 +50,15 @@ a {
   color: #eee;
 
 }
+
+.et-slide-projects h2,
 .et-hero-tabs h2,
 .et-slide h2 {
 background-color: hsla(200, 100%, 25%, 0.5);
 color: #eee;
 }
 
+.et-slide-projects h3,
 .et-hero-tabs h3,
 .et-slide h3 {
   font-size: 1rem;
@@ -272,5 +291,82 @@ ul.social-icons {
 
 
 
+/************** Frame ***************/
+.snip1534 {
+  font-family: 'Muli', sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  background-color: #000000;
+}
+
+.snip1534 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1534 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.75;
+}
+
+.snip1534 figcaption {
+  z-index: 1;
+  align-items: center;
+  position: flex;
+  width: 100%;
+  top: 0;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #66B1F1;
+  padding: 15px;
+}
+
+
+.snip1534 h3,
+.snip1534 h5 {
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.snip1534 h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.snip1534 h5 {
+  font-weight: normal;
+}
+
+.snip1534 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1534:hover > img,
+.snip1534.hover > img {
+  opacity: 1;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
 
 

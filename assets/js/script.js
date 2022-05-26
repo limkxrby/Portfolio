@@ -99,3 +99,11 @@ $(document).ready(function(){
     $('.drop-down').not(this).find('.hidden').slideUp();
   });
 });
+
+/******** Frame ********/
+
+$(".hover").mouseleave(
+	function() {
+	  $(this).removeClass("hover");
+	}
+  );
