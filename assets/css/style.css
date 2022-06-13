@@ -149,6 +149,13 @@ color: #eee;
   }
 }
 
+.about   {
+
+text-align: center;
+color: grey;
+max-width: 50%;
+}
+
 /******** Drop Down *********/
 
 .drop-down {
@@ -224,8 +231,25 @@ color: #eee;
   }
 }
 
-/* ABOUT SECTION */
+/* FOOTER SECTION */
 
+.footer p{
+  justify-content: center;
+  align-items: center;
+
+  color: rgba(74, 86, 96, 1);
+  margin: 0;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+
+/* ABOUT SECTION */
 .container {
   justify-content: left;
   align-items: left;
@@ -235,8 +259,6 @@ color: #eee;
   grid-auto-flow: row;
   border: 0px solid rgba(0, 0, 0, 0.8);
   column-gap: 50px;
-  justify-content: start;
-  align-items: flex-start;
   margin-left: 55px;
 }
 
