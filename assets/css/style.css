@@ -49,11 +49,11 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;  
- 
   position: relative;
   background: #eee;
   text-align: center;
   padding: 0 2em;
+  
 }
 
 .et-slide-projects h1,
@@ -153,7 +153,7 @@ color: #eee;
 
 text-align: center;
 color: grey;
-max-width: 50%;
+max-width: 55%;
 }
 
 /******** Drop Down *********/
@@ -345,6 +345,7 @@ ul.social-icons {
   text-align: left;
   font-size: 16px;
   background-color: #000000;
+
 }
 
 .snip1534 * {
